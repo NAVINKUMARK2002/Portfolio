@@ -8,8 +8,7 @@ Run `python -m http.server 8000 --bind 127.0.0.1` and open http://localhost:8000
 
 ## Content to complete
 
-- Replace YOUR NAME in the header, footer, and page title.
-- Replace the clearly labeled sample employment dates (2024?Present, 2022?2024, 2020?2022) with confirmed dates. Current-role status is also sample data.
+- Employment dates updated from the supplied career history. ILM training is May-June 2023 and summer camps / Team Lead stages are in 2024, following the supplied sequence.
 - Add personal contact details, a photo, and CV when supplied.
 
 The page uses the supplied trainer content. No previous owner's identity, references, certificates, contact information, or backend is used by the active portfolio. Google Fonts is optional; system fonts work offline.
