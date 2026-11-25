@@ -190,3 +190,15 @@
 
 .hero-year-tag span{display:block;font-family:Poppins,sans-serif;font-size:1cqw;font-weight:500;letter-spacing:.02em;line-height:1.5;margin-top:.7cqw;color:#978777}
 @media(max-width:720px){.hero-year-tag span{font-size:2cqw;max-width:19cqw}}
+
+/* Mobile header: identity and CV actions share the first row. */
+@media(max-width:720px){
+ .top-nav-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:13px 8px;padding:13px 12px}
+ .top-nav-inner .nav-brand{grid-column:1;grid-row:1;min-width:0;gap:6px;font-size:clamp(9px,2.6vw,12px);letter-spacing:0;white-space:nowrap}
+ .top-nav-inner .nav-brand-dot{width:6px;height:6px;box-shadow:0 0 0 3px #5882c42e}
+ .top-nav-inner .nav-actions{grid-column:2;grid-row:1;display:flex;flex-wrap:nowrap;gap:5px;min-width:0}
+ .top-nav-inner .nav-actions .btn-pill{font-size:clamp(8px,2.1vw,10px);padding:7px 8px;line-height:1.4;white-space:nowrap}
+ .top-nav-inner .nav-links{grid-column:1/-1;grid-row:2;display:flex;justify-content:center;gap:18px;width:100%;margin:0;padding:0;flex-wrap:wrap}
+ .top-nav-inner .nav-links a{font-size:11px}
+}
+@media(max-width:360px){.top-nav{padding-left:10px;padding-right:10px}.top-nav-inner{padding-left:10px;padding-right:10px;column-gap:5px}.top-nav-inner .nav-actions .btn-pill{padding:7px 6px}.top-nav-inner .nav-links{gap:13px}}
